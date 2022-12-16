@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+/* navbar button */
+.btns{
+    width: 150px;
+}
+
+/* navbar hover effect */
+.hovers-effect:hover{
+    border-bottom: 2px solid  #e67e22;
+    width: 80px;
+}
+
+/* carousel button effect */
+.btn-hov:hover{
+    width: 200px;
+}
+
+/* theme color */
+.color{
+    background: linear-gradient(#e67e22,#ed6809);
+    color: azure;
+}
+
+/* carousel EPC banner */
+.epc-banner{
+    margin-bottom: 200px;
+    margin-right: 800px;
+}
+
+/* section 2 */
+.sec-2-til{
+    color: #e67e22;
+    border-left: 1px solid #e67e22;
+}
+
+/* section 2 para */
+.text-color{
+    color: rgb(70, 70, 228);
+}
+
+/* section 2 img */
+.sec-img{
+    height: 250px;
+    width: 250px
+}
+
+.container-2{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* section 2 company's logo image */
+.sec2-img{
+    height: 100px;
+    width: 100px;
+}
+
+.sec3-con{
+    background: url("/Images/Testimonials-bg.jpg");
+}
+
+.sec3-cara{
+    color: whitesmoke;
+}
+
+.sec3-img{
+    background: url("/Images/life-at-inergy.jpg");
+}
+
+.sec3-para{
+    color: #e67e22;
+}
+
+.sec4-cap{
+    color: #e67e22;
+}
+
+.sec-5{
+    background: linear-gradient(#f0b22eff, #e67e22);
+    color: whitesmoke;
+}
+
+.sec5-btn{
+    background-color: #e67e22;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+.sec6-container{
+    position: relative;
+}
+
+.sec6-logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 50px;
+    width: 100px;
+}
+
+.sec6-bg {
+    background-color: rgb(5, 5, 104);
+    color: whitesmoke;
+}
+
+.sec6-con{
+    background-color: whitesmoke;
+    color: grey;
+    
+}
+
+.car-btn-parent{
+    position: relative;
+}
+.car-btn-child{
+    position: absolute;
+    top: 50%;
+    
+}
